@@ -49,7 +49,7 @@ print(c)
 ## Solution
 **A**
 
-The str.capitalize() method will change the first character in a string to a titlecase (starting from python 3.8) or an uppercase (prior to python 3.8).
+The str.capitalize() method will change the first character in a string to a title-case (starting from python 3.8) or an uppercase (prior to python 3.8).
 
 
 ## Trivia #4
@@ -66,7 +66,7 @@ print(s[::-1])
 ## Solution
 **C**
 
-Python slicing syntax support a third argument (step or stride) that can be used to make a copy of the same list in reverse order
+Python slicing syntax supports a third argument (step or stride) that can be used to make a copy of the same list in reverse order.
 
 
 ## Trivia #5
@@ -74,7 +74,7 @@ Python slicing syntax support a third argument (step or stride) that can be used
 ```
 import difflib
 a = ["bee", "tobe", "ornottobe", "bees", "bebebe"]
-matches = diffli* b)get_close_matches("be", a, n=1)
+matches = difflib.get_close_matches("be", a, n=1)
 print(matches)
 ```
 ## Answers
@@ -85,7 +85,7 @@ print(matches)
 ## Solution
 **B**
 
-The get_close_matches() function in the difflib module can be used to return a list of the best "good enough" matches. We set the optional "n" parameter to 1 in order to only return the word with the highest similarity score to the word "be". The order of the resulting matches are determined by the heapq.nlargest() function using the measure of each word similarity where T is the total number of elements in both words, and M is the number of matches (2.0*M / T).
+The get_close_matches() function in the difflib module can be used to return a list of the best "good enough" matches. We set the optional "n" parameter to 1 in order to only return the word with the highest similarity score to the word "be". The order of the resulting matches is determined by the heapq.nlargest() function using the measure of each word similarity where T is the total number of elements in both words, and M is the number of matches (2.0*M / T).
 
 
 ## Trivia #6
@@ -103,8 +103,7 @@ print(j)
 ## Solution
 **C**
 
-The str.join() method can be used to return a string which concatenate all the strings of an iterable separated by the the string provided to it. In this specific case, we use the \t escape sequence to separate each string by a ta* b)
-
+The str.join() method can be used to return a string that concatenates all the strings of an iterable separated by the string provided to it. In this specific case, we use the \t escape sequence to separate each string by a tab.
 
 ## Trivia #7
 ### Code
@@ -123,7 +122,7 @@ print(c.days)
 ## Solution
 **A**
 
-You can use the subtraction operator between two datetime.date() objects to return a datetime.timedelta() object which contain the number of days between them.
+You can use the subtraction operator between two datetime.date() objects to return a datetime.timedelta() object which contains the number of days between them.
 
 
 ## Trivia #8
@@ -150,8 +149,7 @@ my_cmd --names "Franz Martell" "Regina Hunt" "Christophe Cousineau" "Aarushi Rav
 ## Solution
 **B**
 
-You can set the nargs parameter of the parser.add_argument() method to + to gather all the argument in a list. But unlike using *, it will throw an error message if not at least one argument is provide* d)
-
+You can set the nargs parameter of the parser.add_argument() method to + to gather all the arguments in a list. But unlike using *, it will throw an error message if not at least one argument is provided.
 
 ## Trivia #9
 ### Code
@@ -168,8 +166,7 @@ print(p)
 ## Solution
 **D**
 
-the join() method of the os.path module can concatenate a given path with any number of subsequent paths given. Those paths can be a partial path, a directory name and/or a filename.
-
+The join() method of the os.path module can concatenate a given path with any number of subsequent paths given. Those paths can be a partial path, a directory name and/or a filename.
 
 ## Trivia #10
 ### Code
@@ -187,7 +184,7 @@ print(fd)
 ## Solution
 **C**
 
-You can format a datetime.date() object in a string literal or when using the str.format() metho* d)
+You can format a datetime.date() object in a string literal or when using the str.format() method.
 
 ## Trivia #11
 ### Code
@@ -221,4 +218,4 @@ print(dd)
 ## Solution
 **D**
 
-A dictionary can have its key:value pair reversed by doign a dictionary comprehension (PEP274) at the condition that each value is unique.
+A dictionary can have its key:value pair reversed by doing a dictionary comprehension (PEP274) at the condition that each value is unique.
