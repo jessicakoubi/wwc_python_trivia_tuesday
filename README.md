@@ -8,7 +8,6 @@ Repository to store Trivia Tuesdays Q/As for Women Who Code Python.
 2. 🍴 Fork this repo or pull from upstream to get the latest.  
 3. 🔨 Follow the guide on how to add new trivia(s) below.
 4. 🔧 Make a pull request.
-5. enjoy
 
 ## Structure
 
