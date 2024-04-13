@@ -1,2 +1,3 @@
 ipython
 ipykernel
+ruff==0.3.4
